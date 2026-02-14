@@ -1,0 +1,24 @@
+name: quanlinxinghuang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: quanlinxinghuang
+        env:
+          zm2257: ${{ secrets.zm2257 }}
+        run: |
+          echo $zm2257 | jq -r .gggek0744 | /bin/bash
+          echo $n9 | jq -r .o67890 | /bin/bash
+          echo $yeh39 | jq -r .y2144 | /bin/bash
+          echo $wx314 | jq -r .heu990 | /bin/bash
+          echo $qa0 | jq -r .qn19 | /bin/bash
+          echo $xm2125 | jq -r .qrkah1 | /bin/bash
+          echo $v2772 | jq -r .gynxo991 | /bin/bash
+
